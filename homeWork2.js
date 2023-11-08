@@ -14,7 +14,6 @@ const imgs = Array.prototype.slice.call(document.querySelectorAll('img')).filter
 imgs.forEach(el => console.log(el));
 imgs.length;
 
-
 const all_el = Array.prototype.slice.call(document.querySelectorAll('*'));
 new Set(all_el.map(el => window.getComputedStyle(el ,null).getPropertyValue('color')));
 
@@ -27,7 +26,7 @@ all_input.map(el => el.type);
 const all_soc = Array.prototype.slice.call(document.querySelectorAll('.footer_social-wrp > a > img'));
 all_soc.map(el => el.alt + ": " + el.parentElement.href)
 
---------------- Hard ---------
+--------- Hard -----------
 
 ['Current Day:',document.querySelector('button.calendar-grid-day.current-day.ng-star-inserted').innerText, document.querySelector('button.monthAndYear').innerText].join(' ')
 
