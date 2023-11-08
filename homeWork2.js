@@ -2,7 +2,7 @@ document.querySelectorAll('img')
 
 document.querySelectorAll('a > img')
 
-window.document.querySelectorAll('button')
+document.querySelectorAll('button')
 
 document.querySelectorAll('input')
 
