@@ -4,7 +4,7 @@ $x("//img[@alt]")
 
 $x("//button[text()='Start forming a habit!']")
 
-$x(".//button[contains(text(),'habit')]")
+$x(".//button[contains(text(),'Start forming a habit!')]")
 
 $x("//img[@alt='Internal search button']")
 
